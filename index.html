@@ -1,88 +1,117 @@
-<!--
-   index.html
-   
-   Copyright 2016 jazzykungfuchops <jazzykungfuchops@jazzykungfuchops-desktop>
-   
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
-   
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-   
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-   MA 02110-1301, USA.
-   
-   
--->
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-	<title>My Resume | WebDev Student</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-</head>
-
-<body>
-	<div id="header">
-		<p id="name">Amonte Anthony</p>
-		<a href="mailto:amonrashad@araconceptions.com"><p id="email">amonrashad@araconceptions.com</p></a>
-		<h3>The Complete Web Developer Course</h3>
-	</div>
-	<div class="left">
-		<h2>Main Section</h2>
-		<p>. . .HTML/CSS</p>
-			<div class="skill_Bar">
-				<span style="width: 100%"></span>
-			</div>
-			<p>. . .Javascript</p>
-			<div class="skill_Bar">
-				<span style="width: 100%"></span>
-			</div>
-			<p>. . .Jquery</p>
-			<div class="skill_Bar">
-				<span style="width: 1%"></span>
-			</div>
-	</div>
-	<div class="right">
-		<h3>Second Section</h3>
-		<p>Twitter Bootstrap</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-		<p>Wordpress</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-		<p>PHP</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-		<p>MySQl</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-		<p>APIs</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-		<p>Mobile Apps</p>
-		<div class="skill_Bar">
-			<span style="width: 0%"></span>
-		</div>
-	</div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta charset="utf-8" />
+		
 	
-	<div id="footer">
-		<p>Dallas,Texas  | Tel: (214) 555-5555</p>
-	</div>
-</body>
+	</head>
+
+
+	<body>
+		<style type="text/css">
+			div {
+				width: 800px;
+				margin: 5em auto;
+				padding: 50px;
+				background-color: #ecf0f1;
+				border-radius: 1em;
+				
+			}
+			
+			body {
+					font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+				}
+			
+			.skill_Bar {
+				height: 30px;
+				width: 35%;
+				position:relative;
+				background: #555;
+				border-radius: 25px;
+				-moz-border-radius: 25px;
+				-webkit-border-radius: 25px;
+				padding: 10px;
+				box-shadow: inset 0 -1px rgba(255, 255, 255,0.3);
+
+			}
+
+			.skill_Bar > span {
+				display: block;
+				height: 100%;
+				border-top-right-radius: 8px;
+				border-bottom-right-radius: 8px;
+				border-top-left-radius: 20px;
+				border-bottom-left-radius: 20px;
+				background-color: rgb(43,194,83);
+				background-image: linear-gradient(
+				center bottom,
+				rgb(43,194,83) 37%,
+				rgb(84,240,84) 69%
+				);
+				box-shadow: 
+				inset 0 2px 9px  rgba(255,255,255,0.3),
+				inset 0 -2px 6px rgba(0,0,0,0.4);
+				position: relative;
+				overflow: hidden;
+			}
+			
+		</style>
+		
+		<div>
+			<h1>Complete Web Developer Course</h1>
+			<h3 style="text-align: center; position: relative; top: 50px;">My Progress</h3>
+			<div class="skill_Bar">
+				<span style="width: 51%"></span>
+			</div>
+			<p>My following progress of the Complete Web Developer Course <a href="bars.html">More...</a></p>
+			 
+		
+		
+		
+		</div>
+	
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
